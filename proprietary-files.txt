@@ -42,6 +42,10 @@ vendor/lib/camera/com.qti.tuned.sunny_ov32a1q.bin|e3c8cb221d8bbfd82f81063dbff148
 vendor/lib64/camera/com.qti.sensormodule.sunny_ov32a1q.bin|c97a60bf1b3cd584fa4eb80495ad3ced41cb64a3
 vendor/lib64/camera/com.qti.tuned.sunny_ov32a1q.bin|e3c8cb221d8bbfd82f81063dbff148d28136390f
 
+# Consumerir
+vendor/lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.atoll.so
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.atoll.so
+
 # DPM
 product/bin/dpmd
 product/etc/dpm/dpm.conf
@@ -629,7 +633,6 @@ vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
-vendor/lib/hw/consumerir.default.so
 vendor/lib/hw/sound_trigger.primary.atoll.so
 vendor/lib/hw/vendor.qti.gnss@3.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so
@@ -1122,7 +1125,6 @@ vendor/lib64/hw/audio.bluetooth_qti.default.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
-vendor/lib64/hw/consumerir.default.so
 vendor/lib64/hw/fingerprint.fpc.default.so
 vendor/lib64/hw/fingerprint.goodix.default.so
 vendor/lib64/hw/sound_trigger.primary.atoll.so
