@@ -90,5 +90,8 @@ TARGET_BOARD_PLATFORM := atoll
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2020-02-01
+
 # Inherit proprietary blobs
 -include vendor/xiaomi/joyeuse/BoardConfigVendor.mk
