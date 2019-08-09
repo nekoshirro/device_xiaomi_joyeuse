@@ -85,5 +85,8 @@ TARGET_OTA_ASSERT_DEVICE := joyeuse
 # Platform
 TARGET_BOARD_PLATFORM := atoll
 
+# QCOM
+BOARD_USES_QCOM_HARDWARE := true
+
 # Inherit proprietary blobs
 -include vendor/xiaomi/joyeuse/BoardConfigVendor.mk
