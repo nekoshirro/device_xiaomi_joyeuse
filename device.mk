@@ -17,6 +17,12 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_PACKAGES += \
     fs_config_files
 
+# AVB
+PRODUCT_PACKAGES += \
+    q-gsi.avbpubkey \
+    r-gsi.avbpubkey \
+    s-gsi.avbpubkey
+
 # Camera
 PRODUCT_PACKAGES += \
     Snap
