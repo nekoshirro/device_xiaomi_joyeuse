@@ -17,6 +17,10 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_PACKAGES += \
     fs_config_files
 
+# Audio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_policy_configuration.xml
+
 # AVB
 PRODUCT_PACKAGES += \
     q-gsi.avbpubkey \
