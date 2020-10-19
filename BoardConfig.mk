@@ -60,6 +60,7 @@ endif
 
 # Display
 TARGET_SCREEN_DENSITY := 440
+TARGET_USES_HWC2 := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
