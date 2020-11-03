@@ -42,6 +42,10 @@ vendor/lib/camera/com.qti.tuned.sunny_ov32a1q.bin|e3c8cb221d8bbfd82f81063dbff148
 vendor/lib64/camera/com.qti.sensormodule.sunny_ov32a1q.bin|c97a60bf1b3cd584fa4eb80495ad3ced41cb64a3
 vendor/lib64/camera/com.qti.tuned.sunny_ov32a1q.bin|e3c8cb221d8bbfd82f81063dbff148d28136390f
 
+# Camera provider
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
+
 # Consumerir
 vendor/lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.atoll.so
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.atoll.so
