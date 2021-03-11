@@ -348,7 +348,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/pixel \
     hardware/xiaomi \
-    hardware/nxp
+    hardware/nxp \
+    kernel/xiaomi/sm6250
 
 # Telephony
 PRODUCT_PACKAGES += \
