@@ -165,6 +165,9 @@ BOARD_USES_QCOM_HARDWARE := true
 BOARD_VENDOR := xiaomi
 TARGET_BOARD_PLATFORM := atoll
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
+
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
