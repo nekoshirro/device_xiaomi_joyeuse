@@ -61,7 +61,6 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default
 
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth@1.1.vendor \
     android.hardware.bluetooth.audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
@@ -127,15 +126,11 @@ PRODUCT_PACKAGES += \
     vendor.display.config@2.0.vendor
 
 PRODUCT_PACKAGES += \
-    android.frameworks.displayservice@1.0 \
     android.frameworks.displayservice@1.0.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey \
-    android.hardware.drm@1.0.vendor \
-    android.hardware.drm@1.1.vendor \
-    android.hardware.drm@1.2.vendor \
     android.hardware.drm@1.3.vendor
 
 # DSP
@@ -185,9 +180,6 @@ PRODUCT_COPY_FILES += \
 
 # GNSS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@1.0.vendor \
-    android.hardware.gnss@1.1.vendor \
-    android.hardware.gnss@2.0.vendor \
     android.hardware.gnss@2.1.vendor \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
     android.hardware.gnss.visibility_control@1.0.vendor
@@ -204,10 +196,7 @@ PRODUCT_PACKAGES += \
 
 # Crypto
 PRODUCT_PACKAGES += \
-    android.hardware.authsecret@1.0.vendor \
     android.hardware.gatekeeper@1.0.vendor \
-    android.hardware.keymaster@3.0.vendor \
-    android.hardware.keymaster@4.0.vendor \
     android.hardware.keymaster@4.1.vendor
 
 # HIDL
@@ -278,9 +267,7 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw \
     libc2dcolorconvert \
-    libcodec2_hidl@1.0.vendor \
-    libcodec2_vndk \
-    libcodec2_vndk.vendor
+    libcodec2_vndk
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/media/,$(TARGET_COPY_OUT_VENDOR)/etc)
@@ -362,16 +349,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libjson \
     librmnetctl \
-    android.system.net.netd@1.1 \
-    android.system.net.netd@1.1.vendor \
-    android.hardware.radio@1.4 \
-    android.hardware.radio@1.4.vendor \
     android.hardware.radio@1.5 \
     android.hardware.radio@1.5.vendor \
-    android.hardware.radio.config@1.0 \
-    android.hardware.radio.config@1.0.vendor \
-    android.hardware.radio.config@1.1 \
-    android.hardware.radio.config@1.1.vendor \
     android.hardware.radio.config@1.2 \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.deprecated@1.0 \
@@ -379,14 +358,7 @@ PRODUCT_PACKAGES += \
 
 # Secure Element
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.0 \
-    android.hardware.secure_element@1.0.vendor \
-    android.hardware.secure_element@1.1 \
-    android.hardware.secure_element@1.1.vendor \
-    android.hardware.secure_element@1.2 \
-    android.hardware.secure_element@1.2.vendor \
-    android.hardware.secure_element@1.3 \
-    android.hardware.secure_element@1.3.vendor
+    android.hardware.secure_element@1.2.vendor
 
 # Sensors
 PRODUCT_PACKAGES += \
@@ -404,15 +376,14 @@ PRODUCT_COPY_FILES += \
 
 # NeuralNetworks
 PRODUCT_PACKAGES += \
-    android.hardware.neuralnetworks@1.0.vendor \
-    android.hardware.neuralnetworks@1.1.vendor \
-    android.hardware.neuralnetworks@1.2.vendor \
     android.hardware.neuralnetworks@1.3.vendor
+
+# Net
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.1.vendor
 
 # Servicetracker
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.servicetracker@1.0.vendor \
-    vendor.qti.hardware.servicetracker@1.1.vendor \
     vendor.qti.hardware.servicetracker@1.2.vendor
 
 # Soong namespaces
