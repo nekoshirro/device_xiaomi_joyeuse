@@ -66,6 +66,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml
 
 # NFC
+TARGET_NFC_SKU := joyeuse
+
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     SecureElement \
