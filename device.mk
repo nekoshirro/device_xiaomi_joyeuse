@@ -418,5 +418,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/usb/etc
 
+# Vendor service manager
+PRODUCT_PACKAGES += \
+    vndservicemanager
+
 # Vendor
 $(call inherit-product, vendor/xiaomi/joyeuse/joyeuse-vendor.mk)
