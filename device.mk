@@ -67,7 +67,8 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     libspkrprot \
     libvisualizer \
-    libvolumelistener
+    libvolumelistener \
+    sound_trigger.primary.atoll:32
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
