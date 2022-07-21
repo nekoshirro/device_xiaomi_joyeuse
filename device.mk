@@ -106,7 +106,7 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor
 
 PRODUCT_PACKAGES += \
-    Snap
+    GCamGOPrebuilt
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
