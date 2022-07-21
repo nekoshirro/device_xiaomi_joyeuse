@@ -201,7 +201,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.example
+    android.hardware.lights-service.xiaomi_atoll
 
 # NFC
 PRODUCT_PACKAGES += \
