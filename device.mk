@@ -358,6 +358,11 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     ueventd.qcom.rc
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0-service.multihal \
+    libsensorndkbridge
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
