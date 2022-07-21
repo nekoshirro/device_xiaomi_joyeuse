@@ -25,6 +25,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit MiuiCamera 12 for joyeuse
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
+# AOSP Recovery due to new FBE
+TARGET_USES_AOSP_RECOVERY := true
+
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
