@@ -337,6 +337,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+# RIL
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full \
+    librmnetctl \
+    libxml2
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
