@@ -137,6 +137,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-07-01
 
+# Sepolicy
+include device/qcom/sepolicy_vndr/SEPolicy.mk
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := joyeuse
 
