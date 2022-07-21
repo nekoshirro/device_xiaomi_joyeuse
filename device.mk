@@ -422,5 +422,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     vndservicemanager
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+
 # Vendor
 $(call inherit-product, vendor/xiaomi/joyeuse/joyeuse-vendor.mk)
