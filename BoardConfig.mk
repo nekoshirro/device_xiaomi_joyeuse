@@ -67,6 +67,9 @@ TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 TARGET_SCREEN_DENSITY := 440
 
+# Extended Filesystem Support
+TARGET_EXFAT_DRIVER := sdfat
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
