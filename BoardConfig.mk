@@ -25,5 +25,8 @@ TARGET_BOOTLOADER_BOARD_NAME := joyeuse
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := joyeuse
 
+# Platform
+TARGET_BOARD_PLATFORM := atoll
+
 # Inherit proprietary blobs
 -include vendor/xiaomi/joyeuse/BoardConfigVendor.mk
