@@ -21,6 +21,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a9
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := joyeuse
+TARGET_NO_BOOTLOADER := true
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := joyeuse
