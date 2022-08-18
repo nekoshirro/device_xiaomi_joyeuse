@@ -67,8 +67,11 @@ PRODUCT_COPY_FILES += \
 
 # NFC
 PRODUCT_PACKAGES += \
+    com.android.nfc_extras \
+    SecureElement \
     NfcNci \
-    Tag
+    Tag \
+    nfc_nci_nxp
 
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service
@@ -106,7 +109,10 @@ PRODUCT_COPY_FILES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/google/pixel \
+    hardware/xiaomi \
+    hardware/nxp
 
 # Telephony
 PRODUCT_PACKAGES += \
