@@ -450,6 +450,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/nxp \
     kernel/xiaomi/sm6250
 
+# Shim
+PRODUCT_PACKAGES += \
+    libwatermark_shim
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
