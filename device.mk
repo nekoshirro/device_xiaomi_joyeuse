@@ -1,4 +1,4 @@
-#
+
 # Copyright (C) 2022 Android Open Source Project
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -423,7 +423,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
     Settings \
-    SystemUI \
+    SystemUIGoogle \
     Nexuslauncher \
     lawnchair
 
