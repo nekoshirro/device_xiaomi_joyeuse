@@ -17,6 +17,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     DMService \
     Drive \
     GCS \
+    GoogleCamera \
     GoogleCameraGo \
     GrapheneOS-Camera \
     Maps \
