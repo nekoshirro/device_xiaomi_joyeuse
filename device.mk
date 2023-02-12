@@ -571,5 +571,8 @@ PRODUCT_PACKAGES += \
     libnl \
     libwfdaac_vendor
 
+# PRODUCT_BOOT_JARS += \
+    WfdCommon
+
 # Inherit proprietary targets
 $(call inherit-product-if-exists, vendor/xiaomi/joyeuse/joyeuse-vendor.mk)
