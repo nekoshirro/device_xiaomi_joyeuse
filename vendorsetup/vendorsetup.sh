@@ -45,3 +45,4 @@ rm -rf packages/resources/devicesettings
 # Clone needed repository
 git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d --depth 1
 git clone https://github.com/Evolution-X/packages_resources_devicesettings.git packages/resources/devicesettings --depth 1
+git clone https://gitlab.com/nekoshirro/Alchemist-LLVM.git prebuilts/clang/host/linux-x86/clang-alchemist --depth 1
