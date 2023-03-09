@@ -102,6 +102,7 @@ vendor/lib64/libspkrprot.so
 vendor/lib64/libssrec.so
 
 # Audio FX modules
+vendor/lib/soundfx/libspatialaudio.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libmisoundfx.so
 vendor/lib/soundfx/libqcompostprocbundle.so
