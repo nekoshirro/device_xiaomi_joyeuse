@@ -88,6 +88,10 @@ ODM_MANIFEST_JOYEUSE_FILES := $(DEVICE_PATH)/manifest_joyeuse.xml
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_joyeuse
 TARGET_RECOVERY_DEVICE_MODULES := libinit_joyeuse
 
+# Jemalloc
+MALLOC_SVELTE := true
+MALLOC_SVELTE_FOR_LIBC32 := true
+
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
