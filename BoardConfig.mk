@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Inherit from kernel prebuilt repository
+include device/xiaomi/joyeuse-kernel/BoardConfig.mk
+
 DEVICE_PATH := device/xiaomi/joyeuse
 
 BUILD_BROKEN_DUP_RULES := true

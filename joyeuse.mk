@@ -19,14 +19,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from joyeuse device tree
 $(call inherit-product, device/xiaomi/joyeuse/device.mk)
 
-# Inherit Android Open Source Project configuration
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit from joyeuse kernel prebuilt
+$(call inherit-product, device/xiaomi/joyeuse-kernel/device.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identity configuration
-PRODUCT_NAME := aosp_joyeuse
+PRODUCT_NAME := joyeuse
 PRODUCT_DEVICE := joyeuse
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 9 Pro
