@@ -6,7 +6,9 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
     AmbientSensePrebuilt \
+    AndroidAutoStubPrebuilt \
     Aperture \
+    AppDirectedSMSService \
     arcore \
     Chrome \
     Chrome-Stub \
@@ -21,6 +23,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     GoogleCameraGo \
     GrapheneOS-Camera \
     Maps \
+    MicropaperPrebuilt \
     Music \
     MyVerizonServices \
     OBDM_Permissions \
@@ -44,11 +47,13 @@ LOCAL_OVERRIDES_PACKAGES := \
     SoundAmplifierPrebuilt \
     SprintDM \
     SprintHM \
+    TurboPrebuilt \
     Tycho \
     USCCDM \
     Videos \
     VZWAPNLib \
     VzwOmaTrigger \
+    WallpapersBReel2020 \
     YouTube \
     YouTubeMusicPrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
