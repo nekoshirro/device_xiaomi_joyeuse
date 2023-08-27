@@ -40,9 +40,9 @@ rm -rf device/xiaomi/w*
 rm -rf device/xiaomi/x*
 rm -rf device/xiaomi/y*
 rm -rf device/xiaomi/z*
-rm -rf packages/resources/devicesettings
+rm -rf vendor/xiaomi/miuicamera
 
 # Clone needed repository
 git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d --depth 1
-git clone https://github.com/Evolution-X/packages_resources_devicesettings.git packages/resources/devicesettings --depth 1
 git clone https://gitlab.com/nekoshirro/Alchemist-LLVM.git prebuilts/clang/host/linux-x86/clang-alchemist --depth 1
+git clone https://gitlab.com/nekoshirro/vendor_xiaomi_miuicamera vendor/xiaomi/miuicamera --depth 1

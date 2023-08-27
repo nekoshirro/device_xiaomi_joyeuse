@@ -13,15 +13,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
-# Installs third party camera
-$(call inherit-product-if-exists, vendor/xiaomi/joyeuse-miuicamera/joyeuse-miuicamera-vendor.mk)
-$(call inherit-product-if-exists, vendor/xiaomi/joyeuse-gcam/joyeuse-gcam-vendor.mk)
-
 # Enforce native interfaces of product partition as VNDK
 PRODUCT_PRODUCT_VNDK_VERSION := current
 
 # Enforce java interfaces of product partition
 PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
+
+# MiuiCamera stuff
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+TARGET_SHIPS_GALLERY := false
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 29
