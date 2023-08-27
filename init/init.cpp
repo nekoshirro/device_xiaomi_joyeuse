@@ -117,6 +117,7 @@ void load_device_properties() {
     if (hwname == "joyeuse") {
         set_device_props(
                 "Redmi", "joyeuse", "Redmi Note 9 Pro");
+        property_override("ro.boot.product.hardware.sku", "joyeuse");
     }
 }
 
