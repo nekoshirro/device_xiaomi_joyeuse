@@ -22,6 +22,8 @@ PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
 # MiuiCamera stuff
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 TARGET_SHIPS_GALLERY := false
+TARGET_INCLUDES_MIUI_CAMERA := true
+TARGET_USES_MIUI_CAMERA := true
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 29
