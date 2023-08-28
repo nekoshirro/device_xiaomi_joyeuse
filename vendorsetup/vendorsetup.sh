@@ -41,8 +41,10 @@ rm -rf device/xiaomi/x*
 rm -rf device/xiaomi/y*
 rm -rf device/xiaomi/z*
 rm -rf vendor/xiaomi/miuicamera
+rm -rf hardware/dolby
 
 # Clone needed repository
 git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d --depth 1
 git clone https://gitlab.com/nekoshirro/Alchemist-LLVM.git prebuilts/clang/host/linux-x86/clang-alchemist --depth 1
 git clone https://gitlab.com/nekoshirro/vendor_xiaomi_miuicamera vendor/xiaomi/miuicamera --depth 1
+git clone https://github.com/nekoshirro/android_hardware_dolby.git hardware/dolby --depth 1
