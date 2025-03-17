@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "device_xiaomi_sm6250-common",
+    "target_path": "device/xiaomi/sm6250-common"
+  },
+  {
+    "repository": "vendor_xiaomi_miatoll",
+    "target_path": "vendor/xiaomi/miatoll"
+  },
+  {
+    "repository": "vendor_xiaomi_miuicamera-miatoll",
+    "target_path": "vendor/xiaomi/miuicamera"
+  }
+]
