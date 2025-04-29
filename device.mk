@@ -6,6 +6,9 @@
 # Inherit from sm6250-common
 $(call inherit-product, device/xiaomi/sm6250-common/atoll.mk)
 
+# Init
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_xiaomi_miatoll)
+
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
