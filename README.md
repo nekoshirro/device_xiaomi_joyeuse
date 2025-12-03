@@ -1,4 +1,4 @@
-# Device Tree for Xiaomi Redmi Note 9S/Pro/Pro Max / Note 10 Lite / POCO M2 Pro (miatoll)
+# Device Tree for Xiaomi Redmi Note 9 Pro (joyeuse)
 
 
 ## Spec Sheet

@@ -18,7 +18,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/xiaomi/miatoll',
+    'device/xiaomi/joyeuse',
     'hardware/qcom-caf/sm8150',
     'hardware/qcom-caf/wlan',
     'hardware/xiaomi',
@@ -85,7 +85,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'miatoll',
+    'joyeuse',
     'xiaomi',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,

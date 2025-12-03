@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/miatoll
+DEVICE_PATH := device/xiaomi/joyeuse
 
 # Architecture
 TARGET_ARCH := arm64
@@ -72,7 +72,7 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_RAMDISK_USE_LZ4 := true
 
 TARGET_KERNEL_ADDITIONAL_FLAGS += LD=ld.lld AR=llvm-ar NM=llvm-nm STRIP=llvm-strip OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump
-TARGET_KERNEL_CONFIG := vendor/xiaomi/miatoll_defconfig
+TARGET_KERNEL_CONFIG := vendor/xiaomi/joyeuse_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6250
 KERNEL_CC := CC=clang
 
@@ -97,7 +97,7 @@ TARGET_USES_ION := true
 -include vendor/xiaomi/miuicamera/BoardConfigMiuiCamera.mk
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse,miatoll
+TARGET_OTA_ASSERT_DEVICE := joyeuse
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
@@ -205,4 +205,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit proprietary blobs
-include vendor/xiaomi/miatoll/BoardConfigVendor.mk
+include vendor/xiaomi/joyeuse/BoardConfigVendor.mk

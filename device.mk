@@ -123,7 +123,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
 # Init
-$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_xiaomi_miatoll)
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_xiaomi_joyeuse)
 
 # IPACM
 PRODUCT_PACKAGES += \
@@ -393,4 +393,4 @@ PRODUCT_PACKAGES += \
     firmware_WCNSS_qcom_cfg.ini_symlink
 
 # Inherit proprietary targets
-$(call inherit-product, vendor/xiaomi/miatoll/miatoll-vendor.mk)
+$(call inherit-product, vendor/xiaomi/joyeuse/joyeuse-vendor.mk)
