@@ -15,7 +15,6 @@ static const variant_info_t joyeuse_info = {
     .device = "joyeuse",
     .mod_device = "joyeuse_global",
     .model = "M2003J6B2G",
-    .marketname = "Redmi Note 9 Pro",
     .build_fingerprint = "Redmi/joyeuse/joyeuse:12/RKQ1.211019.001/V14.0.3.0.SJZMIXM:user/release-keys",
 };
 

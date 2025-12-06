@@ -193,7 +193,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SM6250Aperture \
     SM6250LineageDialer \
-    SM6250LineageSDK
+    SM6250LineageSDK \
+    SettingsResJoyeuse
 
 # Partitions
 PRODUCT_PACKAGES += \
@@ -263,6 +264,10 @@ PRODUCT_COPY_FILES += \
 # QTI fwk-detect
 PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti.vendor # Needed by CNE app
+
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # Rootdir
 PRODUCT_PACKAGES += \

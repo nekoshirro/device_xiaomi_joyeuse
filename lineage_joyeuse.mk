@@ -9,7 +9,7 @@ TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Evolution-X stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from joyeuse device
@@ -28,3 +28,11 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="joyeuse-user 12 SKQ1.211019.001 V14.0.3.0.SJZMIXM release-keys" \
     BuildFingerprint=Redmi/joyeuse/joyeuse:12/RKQ1.211019.001/V14.0.3.0.SJZMIXM:user/release-keys
+
+# Evolution-X configuration
+TARGET_DISABLE_EPPE := true
+TARGET_INCLUDE_BOOT_ANIMATIONS := true
+WITH_GMS := true
+# TARGET_SUPPORTS_64_BIT_APPS := true
+# TARGET_SUPPORTS_QUICK_TAP := true
+# TARGET_ENABLE_BLUR := true
