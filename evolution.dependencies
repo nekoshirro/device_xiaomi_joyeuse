@@ -6,5 +6,17 @@
   {
     "repository": "vendor_xiaomi_miatoll",
     "target_path": "vendor/xiaomi/miatoll"
+  },
+  {
+    "repository": "Xiaomi-Development/device_xiaomi_camera",
+    "target_path": "device/xiaomi/camera",
+    "remote": "github-non-los",
+    "branch": "bka"
+  },
+  {
+    "repository": "xiaomi-development/vendor_xiaomi_camera",
+    "target_path": "vendor/xiaomi/camera",
+    "remote": "gitlab",
+    "branch": "aosp-16"
   }
 ]
