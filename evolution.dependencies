@@ -4,8 +4,8 @@
     "target_path": "device/xiaomi/sm6250-common"
   },
   {
-    "repository": "vendor_xiaomi_miatoll",
-    "target_path": "vendor/xiaomi/miatoll"
+    "repository": "vendor_xiaomi_joyeuse",
+    "target_path": "vendor/xiaomi/joyeuse"
   },
   {
     "repository": "Xiaomi-Development/device_xiaomi_camera",

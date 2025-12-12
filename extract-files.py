@@ -10,7 +10,7 @@ from extract_utils.main import (
 )
 
 module = ExtractUtilsModule(
-    'miatoll',
+    'joyeuse',
     'xiaomi',
 )
 

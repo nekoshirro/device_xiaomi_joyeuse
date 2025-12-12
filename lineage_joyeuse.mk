@@ -9,30 +9,30 @@ TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Evolution X stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from miatoll device
-$(call inherit-product, device/xiaomi/miatoll/device.mk)
+# Inherit from joyeuse device
+$(call inherit-product, device/xiaomi/joyeuse/device.mk)
 
 # EvolutionX flags
-TARGET_USES_MINI_GAPPS := true 
+TARGET_USES_MINI_GAPPS := true
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-PRODUCT_NAME := lineage_miatoll
-PRODUCT_DEVICE := miatoll
+PRODUCT_NAME := lineage_joyeuse
+PRODUCT_DEVICE := joyeuse
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := SM6250
+PRODUCT_MODEL := M2003J6B2G
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="miatoll_global-user 12 SKQ1.211019.001 V14.0.3.0.SJZMIXM release-keys" \
-    BuildFingerprint=Redmi/miatoll_global/miatoll:12/RKQ1.211019.001/V14.0.3.0.SJZMIXM:user/release-keys
+    BuildDesc="joyeuse-user 12 SKQ1.211019.001 V14.0.3.0.SJZMIXM release-keys" \
+    BuildFingerprint=Redmi/joyeuse/joyeuse:12/RKQ1.211019.001/V14.0.3.0.SJZMIXM:user/release-keys
 
 # Camera
 include device/xiaomi/camera/miuicamera.mk
